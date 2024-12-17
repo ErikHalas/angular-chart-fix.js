@@ -1,11 +1,12 @@
 {
-  "name": "angular-chart.js",
-  "version": "1.1.1",
-  "description": "An angular.js wrapper for Chart.js",
-  "homepage": "http://jtblin.github.io/angular-chart.js/",
+  "name": "@ehalas/angular-chart",
+  "version": "1.1.2",
+  "description": "An angular.js wrapper for Chart.js forked from https://github.com/jtblin/angular-chart.js to fix the high vulnerability",
+  "homepage": "https://github.com/ErikHalas/angular-chart-fix.js",
   "main": "dist/angular-chart.js",
   "directories": {
-    "example": "examples"
+    "example": "examples",
+    "test": "test"
   },
   "scripts": {
     "codeclimate": "./node_modules/codeclimate-test-reporter/bin/codeclimate.js < coverage/lcov.info",
@@ -17,7 +18,7 @@
   "author": "Jerome Touffe-Blin <jtblin@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jtblin/angular-chart.js.git"
+    "url": "https://github.com/ErikHalas/angular-chart-fix.js"
   },
   "license": "BSD-2-Clause",
   "devDependencies": {
@@ -66,5 +67,12 @@
   "dependencies": {
     "angular": "1.x",
     "chart.js": "2.9.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ErikHalas/angular-chart-fix.js"
+  },
+  "keywords": [
+    "angular.js",
+    "chart.js"
+  ]
 }
